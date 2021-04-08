@@ -65,7 +65,8 @@ class WindowEventScene : public ng::Scene
             }
         }
 
-     private:
+     private: //Window Events callback
+
         void onWindowClosed()
         {
             //do something
