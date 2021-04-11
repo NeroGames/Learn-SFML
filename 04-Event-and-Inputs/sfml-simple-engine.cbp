@@ -36,11 +36,16 @@
 		<Linker>
 			<Add directory="include" />
 		</Linker>
-		<Unit filename="CircleScene.h" />
 		<Unit filename="engine/Engine.cpp" />
 		<Unit filename="engine/Engine.h" />
 		<Unit filename="engine/Scene.cpp" />
 		<Unit filename="engine/Scene.h" />
+		<Unit filename="lesson/CircleScene.h" />
+		<Unit filename="lesson/GameControllerScene.h" />
+		<Unit filename="lesson/JoystickEventScene.h" />
+		<Unit filename="lesson/KeyboardEventScene.h" />
+		<Unit filename="lesson/MouseEventScene.h" />
+		<Unit filename="lesson/WindowEventScene.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

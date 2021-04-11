@@ -15,10 +15,12 @@
 	<SFML/Window/Event.hpp>
 	"Scene.h"
 
-1617857448 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\main.cpp
+1618043696 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\main.cpp
 	"Engine.h"
 	"lesson/WindowEventScene.h"
 	"lesson/KeyboardEventScene.h"
+	"lesson/MouseEventScene.h"
+	"lesson/JoystickEventScene.h"
 
 1617432135 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\circlescene.h
 	"Scene.h"
@@ -29,12 +31,31 @@
 	"SFML/Graphics.hpp"
 	"Nero/utility/Utility.h"
 
-1617859582 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\lesson\windoweventscene.h
+1617864480 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\lesson\windoweventscene.h
 	"Scene.h"
 	<Nero/utility/Utility.h>
 	"SFML/Graphics.hpp"
 
-1617823042 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\lesson\keyboardeventscene.h
+1618043783 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\lesson\keyboardeventscene.h
 	"Scene.h"
+	"SFML/Graphics.hpp"
+
+1618045569 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\engine\gamepad.cpp
+	"Gamepad.h"
+
+1618049864 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\engine\gamepad.h
+	<GamepadUtil.h>
+
+1618048413 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\engine\gamepadutil.h
+	<SFML/Window/Joystick.hpp>
+	<map>
+
+1618043742 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\lesson\mouseeventscene.h
+	"Scene.h"
+	"SFML/Graphics.hpp"
+
+1618049739 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-simple-engine\lesson\joystickeventscene.h
+	"Scene.h"
+	"Gamepad.h"
 	"SFML/Graphics.hpp"
 

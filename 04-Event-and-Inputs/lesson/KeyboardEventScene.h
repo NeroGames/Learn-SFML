@@ -129,3 +129,5 @@ class KeyboardEventScene : public ng::Scene
                     // hero_name += c;
             }
 };
+
+#endif // KEYBOARDEVENTSCENE_H_INCLUDED
