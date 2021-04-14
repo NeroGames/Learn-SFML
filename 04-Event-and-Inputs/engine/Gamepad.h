@@ -13,7 +13,7 @@ namespace ng
     class Gamepad
     {
         public:
-            enum ID {ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, HEIGHT, NONE};
+            enum ID {ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NONE};
             static const float AXIS_SENSIVITY;
 
         public:

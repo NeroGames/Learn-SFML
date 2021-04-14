@@ -14,22 +14,17 @@ namespace ng
 {
     enum class JSButton
     {
-        //DPad
-         DPadLeft
-        ,DPadRight
-        ,DPadUp
-        ,DPadDown
         //Action
         ,Square
         ,Cross
         ,Circle
         ,Triangle
-        //
+        //Menu
         ,Option
         ,Share
         ,Start
         ,Touchpad
-        //
+        //Shoulder
         ,L1
         ,L2
         ,L3
@@ -54,9 +49,6 @@ namespace ng
     {
         switch(button)
         {
-            case JSButton::DPadLeft: return "DPadLeft";
-            case JSButton::DPadRight: return "DPadRight";
-            case JSButton::DPadUp: return "DPadUp";
             case JSButton::Square: return "Square";
             case JSButton::Cross: return "Cross";
             case JSButton::Circle: return "Circle";

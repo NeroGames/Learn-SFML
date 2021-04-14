@@ -82,7 +82,7 @@ class JoystickEventScene : public ng::Scene
 
     private:
 
-        onJoystickConnection(const unsigned int& joystickId, const bool& connected)
+        void onJoystickConnection(const unsigned int& joystickId, const bool& connected)
         {
             if(mGamepadOne.getId() == joystickId)
             {
@@ -94,7 +94,7 @@ class JoystickEventScene : public ng::Scene
             }
         }
 
-        onJoystickButton(const unsigned int& joystickId, const unsigned int& button, const bool& isPressed)
+        void onJoystickButton(const unsigned int& joystickId, const unsigned int& button, const bool& isPressed)
         {
             if(mGamepadOne.getId() == joystickId && mGamepadOne.isConnected())
             {
@@ -106,7 +106,7 @@ class JoystickEventScene : public ng::Scene
             }
         }
 
-        onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position)
+        void onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position)
         {
 
             if(mGamepadOne.getId() == joystickId && mGamepadOne.isConnected())
