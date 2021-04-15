@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1618503407 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\engine.cpp
+	<SFML/Window/Event.hpp>
+	"Engine.h"
+
+1618502778 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\engine.h
+	<SFML/Graphics/RenderWindow.hpp>
+	"Scene.h"
+
+1618506321 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\scene.h
+	"KeyboardUtil.h"
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Joystick.hpp>
+	<memory>
+
+1618503370 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\gamepad.cpp
+	"Gamepad.h"
+	<cmath>
+	<Nero/utility/Utility.h>
+
+1618503229 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\gamepad.h
+	<GamepadUtil.h>
+	<SFML/System/Vector2.hpp>
+
+1618503445 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\gamepadutil.h
+	<SFML/Window/Joystick.hpp>
+	<map>
+
+1618506258 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\scene.cpp
+	<SFML/Window/Event.hpp>
+	"Scene.h"
+
+1618502185 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\main.cpp
+	"engine/Engine.h"
+	"lesson/CircleScene.h"
+
+1618507481 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\lesson\circlescene.h
+	"Scene.h"
+	"Gamepad.h"
+	"SFML/Graphics.hpp"
+
+1618505936 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-engine-improved-v0.2\engine\keyboardutil.h
+	<SFML/Window/Keyboard.hpp>
+
