@@ -120,8 +120,8 @@ namespace ng
             m_FrameCount        = 0;
         }
 
-        m_Scene->setFrameRate(m_FramePerSecond);
-        m_Scene->setFrameTime(m_TimePerFrame);
+        m_Scene->m_FrameRate = m_FramePerSecond;
+        m_Scene->m_FrameTime = m_TimePerFrame;
     }
 }
 

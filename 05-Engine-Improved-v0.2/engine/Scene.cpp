@@ -139,14 +139,14 @@ namespace ng
         return *m_RenderWindow;
     }
 
-    void Scene::setFrameRate(const float& rate)
+    float Scene::getFrameRate() const
     {
-        m_FrameRate = rate;
+        return m_FrameRate;
     }
 
-    void Scene::setFrameTime(const float& second)
+    float Scene::getFrameTime() const
     {
-        m_FrameTime = second;
+        return m_FrameTime;
     }
 
     void Scene::onWindowClosed()

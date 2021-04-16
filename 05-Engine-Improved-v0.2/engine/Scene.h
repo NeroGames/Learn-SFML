@@ -38,6 +38,9 @@ namespace ng
             std::string                 getSceneName() const;
             sf::Vector2f                getSceneResolution() const;
             sf::RenderWindow&           getRenderWindow() const;
+            //frame rate
+            float                       getFrameRate() const;
+            float                       getFrameTime() const;
             //setter
             void                        setSceneName(const std::string& name);
 
@@ -59,10 +62,6 @@ namespace ng
             virtual void                onJoystickConnection(const unsigned int& joystickId, const bool& connected);
             virtual void                onJoystickButton(const unsigned int& joystickId, const unsigned int& button, const bool& isPressed);
             virtual void                onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position);
-
-            //frame rate
-            void                        setFrameRate(const float& rate);
-            void                        setFrameTime(const float& second);
 
         private:
             friend class                Engine;
