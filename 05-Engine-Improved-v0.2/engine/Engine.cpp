@@ -15,6 +15,10 @@ namespace ng
         ,m_FrameRate(sf::seconds(1.f/frameRate))
         ,m_RenderWindow(sf::VideoMode(windowWidth, windowHeight), "Simple Engine")
         ,m_Scene(Scene::Ptr(new Scene()))
+        ,m_ElapsedTime()
+        ,m_FrameCount(0)
+        ,m_FramePerSecond(0.f)
+        ,m_TimePerFrame(0.f)
     {
         //constructor
     }
@@ -118,10 +122,10 @@ namespace ng
 
             m_ElapsedTime      -= sf::seconds(1.0f);
             m_FrameCount        = 0;
-        }
 
-        m_Scene->m_FrameRate = m_FramePerSecond;
-        m_Scene->m_FrameTime = m_TimePerFrame;
+            m_Scene->m_FrameRate = m_FramePerSecond;
+        	m_Scene->m_FrameTime = m_TimePerFrame;
+        }        
     }
 }
 
