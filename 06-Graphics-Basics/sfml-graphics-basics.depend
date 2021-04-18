@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1618566201 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\engine.cpp
+	<SFML/Window/Event.hpp>
+	"Engine.h"
+
+1618502778 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\engine.h
+	<SFML/Graphics/RenderWindow.hpp>
+	"Scene.h"
+
+1618564780 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\scene.h
+	"KeyboardUtil.h"
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Joystick.hpp>
+	<memory>
+
+1618505936 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\keyboardutil.h
+	<SFML/Window/Keyboard.hpp>
+
+1618503370 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\gamepad.cpp
+	"Gamepad.h"
+	<cmath>
+	<Nero/utility/Utility.h>
+
+1618503229 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\gamepad.h
+	<GamepadUtil.h>
+	<SFML/System/Vector2.hpp>
+
+1618503445 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\gamepadutil.h
+	<SFML/Window/Joystick.hpp>
+	<map>
+
+1618564790 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\engine\scene.cpp
+	<SFML/Window/Event.hpp>
+	"Scene.h"
+
+1618706369 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\main.cpp
+	"engine/Engine.h"
+	"lesson/SimpleShapeScene.h"
+
+1618706509 c:\users\sk-landry\desktop\nero-game-engine-r1.0.6\projects\sfml-graphics-basics\lesson\simpleshapescene.h
+	"Scene.h"
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+
