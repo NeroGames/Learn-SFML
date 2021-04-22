@@ -8,7 +8,7 @@
 //Nero Games
 #include "Scene.h"
 //SFML
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 ////////////////////////////////////////////////////////////
 class CircleScene : public ng::Scene
 {

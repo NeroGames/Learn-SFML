@@ -1,11 +1,17 @@
+////////////////////////////////////////////////////////////
+// Nero Game Engine - SFML Tutorials
+// Copyright (c) 2021 Sanou A. K. Landry
+////////////////////////////////////////////////////////////
 #ifndef SIMPLESHAPESCENE_H_INCLUDED
 #define SIMPLESHAPESCENE_H_INCLUDED
-
+///////////////////////////HEADERS//////////////////////////
+//Nero Games
 #include "Scene.h"
+//SFML
 #include <SFML/Graphics/CircleShape.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <SFML/Graphics/ConvexShape.hpp>
-
+////////////////////////////////////////////////////////////
 class SimpleShapeScene : public ng::Scene
 {
     private:

@@ -123,10 +123,9 @@ namespace ng
             m_ElapsedTime      -= sf::seconds(1.0f);
             m_FrameCount        = 0;
 
-            //provide new data to the Scene class
             m_Scene->m_FrameRate = m_FramePerSecond;
-            m_Scene->m_FrameTime = m_TimePerFrame;
-        }
+        	m_Scene->m_FrameTime = m_TimePerFrame;
+        }        
     }
 }
 

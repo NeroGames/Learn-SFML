@@ -9,7 +9,7 @@
 #include "Scene.h"
 #include <Nero/utility/Utility.h>
 //SFML
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 ////////////////////////////////////////////////////////////
 class WindowEventScene : public ng::Scene
 {

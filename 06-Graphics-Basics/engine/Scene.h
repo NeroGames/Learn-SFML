@@ -55,7 +55,7 @@ namespace ng
             virtual void                onTextEntered(const std::string& c);
                 //mouse
             virtual void                onMouseMoved(const sf::Vector2f& position);
-            virtual void                onMouseButton(const sf::Mouse::Button& button, const &isPressed, const sf::Vector2f& position);
+            virtual void                onMouseButton(const sf::Mouse::Button& button, const bool& isPressed, const sf::Vector2f& position);
             virtual void                onMouseWheel(const sf::Mouse::Wheel& wheel, const float& delta, const sf::Vector2f& position);
             virtual void                onMouseWindowSurface(const bool& mouseEntered);
             //joystick

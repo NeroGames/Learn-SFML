@@ -1,11 +1,21 @@
+////////////////////////////////////////////////////////////
+// Nero Game Engine - SFML Tutorials
+// Copyright (c) 2021 Sanou A. K. Landry
+////////////////////////////////////////////////////////////
 #ifndef CIRCLESCENE_H_INCLUDED
 #define CIRCLESCENE_H_INCLUDED
-
+///////////////////////////HEADERS//////////////////////////
+//Nero Games
 #include "Scene.h"
-#include "SFML/Graphics.hpp"
-
+//SFML
+#include <SFML/Graphics.hpp>
+////////////////////////////////////////////////////////////
 class CircleScene : public ng::Scene
 {
+	 private:
+        sf::CircleShape 	mCircle;
+        sf::Vector2f    	mCirclePosition;
+
     public:
         typedef std::unique_ptr<CircleScene> Ptr;
 
@@ -44,24 +54,10 @@ class CircleScene : public ng::Scene
             mCircle.setPosition(mCirclePosition);
         }
 
-        void clear()
-        {
-            getRenderWindow().clear(sf::Color::Black);
-        }
-
         void render()
         {
             getRenderWindow().draw(mCircle);
         }
-
-        void destroy()
-        {
-            //nothing
-        }
-
-    private:
-        sf::CircleShape mCircle;
-        sf::Vector2f    mCirclePosition;
 };
 
 #endif // CIRCLESCENE_H_INCLUDED

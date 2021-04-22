@@ -179,7 +179,7 @@ namespace ng
 
     }
 
-    void Scene::onMouseButton(const sf::Mouse::Button& button, const &isPressed, const sf::Vector2f& position)
+    void Scene::onMouseButton(const sf::Mouse::Button& button, const bool& isPressed, const sf::Vector2f& position)
     {
 
     }

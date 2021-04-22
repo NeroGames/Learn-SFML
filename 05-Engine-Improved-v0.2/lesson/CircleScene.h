@@ -9,7 +9,7 @@
 #include "Scene.h"
 #include "Gamepad.h"
 //SFML
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 ////////////////////////////////////////////////////////////
 class CircleScene : public ng::Scene
 {

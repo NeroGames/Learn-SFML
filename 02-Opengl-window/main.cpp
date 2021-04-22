@@ -2,14 +2,15 @@
 // Nero Game Engine - SFML Tutorials
 // Copyright (c) 2021 Sanou A. K. Landry
 ////////////////////////////////////////////////////////////
+///////////////////////////HEADERS//////////////////////////
 //Glew
 #include <GL/glew.h>
 //SFML
 #include <SFML/Window.hpp>
 #include <SFML/OpenGL.hpp>
-//
+//CPP
 #include <iostream>
-
+////////////////////////////////////////////////////////////
 // Forward Declaration : Utility functions
 struct          TriangleState{unsigned int VBO, VAO, EBO;};
 sf::Vector2f    pixelToNDC(const sf::Vector2f& vertex, sf::Vector2u resolution);
@@ -17,7 +18,7 @@ int             createShaderProgram();
 void            createTriangle(TriangleState& triangle, sf::Vector2u resolution, const sf::Vector2f& vertex1, const sf::Vector2f& vertex2, const sf::Vector2f& vertex3);
 void            drawTriangle(TriangleState& triangle, int shaderProgram);
 void            destroyTriangle(TriangleState& triangle);
-
+////////////////////////////////////////////////////////////
 int main()
 {
     //Create OpenGL Window
